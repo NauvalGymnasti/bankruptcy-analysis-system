@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/898078872594077427/2b564d181c3a460c98af29d6bd6ab2f3/artifacts
+end_time: 1762032558032
+entry_point_name: ''
+experiment_id: '898078872594077427'
+lifecycle_stage: active
+run_id: 2b564d181c3a460c98af29d6bd6ab2f3
+run_name: luminous-squid-741
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762032538818
+status: 3
+tags: []
+user_id: user
