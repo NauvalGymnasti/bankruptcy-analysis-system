@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/user/OneDrive/Desktop/Code/sistem%20machine%20learning%20%28ML%29/bankruptcy-analysis-system/Membangun_Model/mlruns/971332751604425249/models/m-9222416f19aa439999c04e33a91aa259/artifacts
+creation_timestamp: 1762075170066
+experiment_id: '971332751604425249'
+last_updated_timestamp: 1762075193668
+model_id: m-9222416f19aa439999c04e33a91aa259
+model_type: null
+name: best_model_tuned
+source_run_id: a4390442dd4c43b8a8f4b9adbdfbfc51
+status: 2
+status_message: null

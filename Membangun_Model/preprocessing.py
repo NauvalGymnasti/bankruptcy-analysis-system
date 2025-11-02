@@ -14,7 +14,7 @@ from sklearn.impute import SimpleImputer
 
 def load_and_preprocess_data():
     # Load dataset
-    df = pd.read_csv("../dataset/Company_Bankruptcy_Prediction_data.csv")
+    df = pd.read_csv("dataset/Company_Bankruptcy_Prediction_data.csv")
     
     # ====================================================
     # 1. Identifikasi dan Tangani Nilai Placeholder (9990000000 / 10000000000)
@@ -76,3 +76,5 @@ def load_and_preprocess_data():
     print(y_train.value_counts(normalize=True))
     print("\nTest:")
     print(y_test.value_counts(normalize=True))
+    
+    return X_train, X_test, y_train, y_test

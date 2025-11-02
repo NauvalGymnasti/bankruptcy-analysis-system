@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/106666968967537679/dabadf2aeb284f1490216d1171d7c63f/artifacts
+end_time: 1762076301797
+entry_point_name: ''
+experiment_id: '106666968967537679'
+lifecycle_stage: active
+run_id: dabadf2aeb284f1490216d1171d7c63f
+run_name: XGBoost_GridSearchCV_Best
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762076282941
+status: 3
+tags: []
+user_id: user
