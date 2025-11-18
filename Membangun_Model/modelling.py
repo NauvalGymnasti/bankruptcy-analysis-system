@@ -54,12 +54,6 @@ for lr in learning_rate_list:
                 acc = accuracy_score(y_test, y_pred)
                 print(f"Accuracy: {acc:.4f}")
 
-                # --- 4.4 Logging ke MLflow ---
-                mlflow.log_param("learning_rate", lr)
-                mlflow.log_param("max_depth", depth)
-                mlflow.log_param("n_estimators", n_est)
-                mlflow.log_metric("accuracy", acc)
-
                 # Log model ke MLflow
                 mlflow.sklearn.log_model(model, "model")
 
