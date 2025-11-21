@@ -59,7 +59,7 @@ for lr in learning_rate_list:
                 results = model.evals_result()
                 epochs = len(results['validation_0']['logloss'])
                 x_axis = range(0, epochs)
-
+                
                 plt.figure()
                 plt.plot(x_axis, results['validation_0']['logloss'], label='Train')
                 plt.plot(x_axis, results['validation_1']['logloss'], label='Test')
