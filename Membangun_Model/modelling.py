@@ -11,7 +11,8 @@ from preprocessing import load_preprocessed_data
 X_train, X_test, y_train, y_test = load_preprocessed_data()
 
 # --- 2. Setup MLflow Experiment ---
-mlflow.set_experiment("SMSML_XGBoost_Modelling")
+mlflow.set_tracking_uri("http://127.0.0.1:5000")  
+mlflow.set_experiment("SMSML_XGBoost_Tuning")
 
 # --- 3. Definisikan daftar hyperparameter yang akan diuji ---
 learning_rate_list = [0.05, 0.1]
