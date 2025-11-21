@@ -55,9 +55,6 @@ for lr in learning_rate_list:
                 acc = accuracy_score(y_test, y_pred)
                 print(f"Accuracy: {acc:.4f}")
 
-                # Log model ke MLflow
-                mlflow.sklearn.log_model(model, "model")
-
                 # --- 4.5 Logging grafik logloss ---
                 results = model.evals_result()
                 epochs = len(results['validation_0']['logloss'])
